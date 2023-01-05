@@ -2,6 +2,11 @@
 Etapa 2-Dev-FrontEnd
 </h1>
 
+## Print
+![1](https://user-images.githubusercontent.com/93069800/210896169-4804a8a9-3a85-47b2-bedf-dcdf2bbd8fda.png)
+![2](https://user-images.githubusercontent.com/93069800/210896191-9f9cc241-f430-4fae-ba21-88fcbcef7438.png)
+
+
 ## 🖋 Descrição
 
 **(0) Gerais**
