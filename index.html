@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/faveasy.ico" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="alert.js"></script>
+    <title>Easy EaD</title>
+  </head>
+  <body>
+    <header class="cabeçalho">
+      <div class="logo">
+        <a href="https://www.easyead.com.br/" target="_blank">
+          <img
+            class="logo"
+            src="/assets/logo_easyead.png"
+            alt="Logo Easy Ead"
+          />
+        </a>
+      </div>
+      <nav class="menu">
+        <ul>
+          <li>
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+              target="_blank"
+              >HTML</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"
+              target="_blank"
+              >CSS</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+              target="_blank"
+              >JavaScript</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout"
+              target="_blank"
+              >Design</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://developer.mozilla.org/pt-BR/docs/Glossary/UX"
+              target="_blank"
+              >UX/UI</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores#:~:text=Programa%C3%A7%C3%A3o%20%C3%A9%20o%20processo%20de,ser%20escritas%20em%20diferentes%20linguagens."
+              target="_blank"
+              >Programação</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <button class="login" onclick="login()">Log in</button>
+    </header>
+    <img class="banner" src="/assets/banner_foguete.png" alt="Banner foguete" />
+    <section class="selecao">
+      <h1>LAYOUT PARA FRONT-END DA SELEÇÃO DE 2022</h1>
+      <hr size="12" width="78%" color="#8aed95" />
+      <div class="newsletter">
+        <h3>Assine Nossa Newsletter</h3>
+        <form>
+          <input class="email"
+            type="email"
+            placeholder="Digite seu e-mail"
+            id="nome"
+            required
+          />
+          <button class="assinar">Assinar</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="links">
+        <div class="colunaheading1">
+          <h3>Heading 1</h3>
+          <ul>
+            <li><a href="#" target="_blank">Payment Center</a></li>
+            <li><a href="#" target="_blank">Contact Directory</a></li>
+            <li><a href="#" target="_blank">Forms</a></li>
+            <li><a href="#" target="_blank">News and Updates</a></li>
+            <li><a href="#" target="_blank">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="bloco lista">
+          <h3>Heading 2</h3>
+          <ul>
+            <li><a href="#" target="_blank">Website Tutorial</a></li>
+            <li><a href="#" target="_blank">Accessibility</a></li>
+            <li><a href="#" target="_blank">Disclaimer</a></li>
+            <li><a href="#" target="_blank">Privacy Policy</a></li>
+            <li><a href="#" target="_blank">FAQs</a></li>
+            <li><a href="#" target="_blank">Webmaster</a></li>
+          </ul>
+        </div>
+        <div class="coluna heading3">
+          <h3>Heading 3</h3>
+          <ul>
+            <li><a href="#" target="_blank">Parks and Recreation</a></li>
+            <li><a href="#" target="_blank">Public Works</a></li>
+            <li><a href="#" target="_blank">Police Departament</a></li>
+            <li><a href="#" target="_blank">Fire</a></li>
+            <li><a href="#" target="_blank">Mayor and City Council</a></li>
+          </ul>
+        </div>
+        <div class="follow">
+          <h3>Follow Us</h3>
+          <svg class="socialmedia" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="35" height="35"
+viewBox="0 0 50 50"
+style=" fill:#ffffff;"> 
+<path d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23c12.683,0,23-10.317,23-23S37.683,2,25,2z M32,16h-3.29 C26.772,16,26,16.455,26,17.806V21h6l-1,5h-5v13h-6V26h-3v-5h3v-2.774C20,14.001,21.686,11,26.581,11C29.203,11,32,12,32,12V16z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="35" height="35"
+viewBox="0 0 50 50"
+style=" fill:#ffffff;">    <path d="M25,2C12.318,2,2,12.317,2,25s10.318,23,23,23s23-10.317,23-23S37.682,2,25,2z M18,35h-4V20h4V35z M16,17 c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2s2,0.895,2,2C18,16.105,17.105,17,16,17z M37,35h-4v-5v-2.5c0-1.925-1.575-3.5-3.5-3.5 S26,25.575,26,27.5V35h-4V20h4v1.816C27.168,20.694,28.752,20,30.5,20c3.59,0,6.5,2.91,6.5,6.5V35z"></path></svg>
+<h3>Soma</h3> 
+<section>
+  <div class="conta">
+      
+      <input class="num1" type="text" ><br>
+      <p>+</p>
+      <input class="num2" type="text"><br>
+      <button class="botaosomar" onclick="clicar()">somar</button>
+      <p class="resultado"></p>
+  </div>
+</section>       
+</div>
+        </section>
+      </div>
+      <hr width="94%">
+      <div class="rodape">
+        <P>© Copyright 2018 - Company Name. All rights reserved.</P>
+      </div>
+    </footer>
+  </body>
+</html>
